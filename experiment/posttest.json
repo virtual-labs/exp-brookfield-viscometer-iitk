@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Brookfield's viscometer is used to describe the viscosity of which type of liquids?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Plastic",
+        "b": "Pseudoplastic",
+        "c": "Dilatant",
+        "d": "All of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Plug flow is the disadvantage of which type of viscometer?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Ostwald",
+        "b": "Falling sphere",
+        "c": "brookfield's",
+        "d": "Cone and plate rotational"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
