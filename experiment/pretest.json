@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A type of flow in which viscosity increases when the substance is agitated?",
+      "question": "1. A type of flow in which viscosity increases when the substance is agitated?",
       "answers": {
         "a": "Plastic",
         "b": "Pseudoplastic",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Yield value reveals about the?",
+      "question": "2. Yield value reveals about the?",
       "answers": {
         "a": "de- flocculation",
         "b": "force of flocculation",
