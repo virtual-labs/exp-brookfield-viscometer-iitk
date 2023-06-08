@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Brookfield's viscometer is used to describe the viscosity of which type of liquids?",
+      "question": "1. Brookfield's viscometer is used to describe the viscosity of which type of liquids?",
       "answers": {
         "a": "Plastic",
         "b": "Pseudoplastic",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Plug flow is the disadvantage of which type of viscometer?",
+      "question": "2. Plug flow is the disadvantage of which type of viscometer?",
       "answers": {
         "a": "Ostwald",
         "b": "Falling sphere",
