@@ -1,24 +1,23 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Pharmacy
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Physical Pharmaceutics
+<b> Experiment|     <b> To determine the viscosity of semisolids by using Brookfield’s Viscometer
 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Rupali Sharma
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b> Meerut Institute of Engineering and Technology 
+<b> Email id|     <b>  	rupalisharma2711@gmail.com
+<b> Department |  Department of Pharmacy
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Arjit Malik | Student |CSE dept | MIET Meerut |malikarjit2001@gmail.com
