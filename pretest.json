@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A type of flow in which viscosity increases when the substance is agitated?",
+      "answers": {
+        "a": "Plastic",
+        "b": "Pseudoplastic",
+        "c": "Dilatant",
+        "d": "Thixotropy"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Dilatant materials are frquently named as shear thickening systems. As the shear stress is increased, the bulk of the sysytem expands or dilates",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Yield value reveals about the?",
+      "answers": {
+        "a": "de- flocculation",
+        "b": "force of flocculation",
+        "c": "degree of flocculation",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "In plastic flow the substance initially behaves like elastic body and fails to flow when less amount of force is applied on further increasing the shear stress the substance progressively starts to flow",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
