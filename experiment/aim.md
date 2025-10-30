@@ -1,1 +1,1 @@
-### Aim of the experiment is to determine the viscosity of semisolids by using Brookfield’s Viscometer.
+To determine the viscosity of a semi-solid sample using a Brookfield viscometer
