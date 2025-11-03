@@ -19,9 +19,9 @@
 ● Record the temperature of the sample during measurement.<br>
 
 <b>Observations and Data:</b><br>
+
 | **Spindle No.** | **Speed (RPM)** | **Temperature (°C)** | **Viscosity (cP)** |
 |------------------|------------------|-----------------------|---------------------|
-|                  |                  |                       |                     |
 |                  |                  |                       |                     |
 
 <b>Calculations:</b><br>
