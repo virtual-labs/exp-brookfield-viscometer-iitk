@@ -1,13 +1,418 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determination of moisture content in foods in relation to their stability</title>
+   
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-		<!-- Your code goes here-->
+<body id="body">
+  <main class="main">
+    <div class="header" id="header">
+          <h1 id="ins">Instructions :-</h1>
+          <h1 id="text"> lets start the experiment</h1>
+        </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+        
+        <div class="footer">
+            
+          <div id="experiment">
+            
+              <!-- ------------------------------  TABLES AND BACKGROUNDS  ----------------------- -->
+              
+              <!-- <img id="workingtable" src="working-area-empty1-big-lab1.jpg" alt=""> -->
+              <img id="workingtable" src="bgAset.png" alt="">
+              <img id="startinglab" src="my-lab-new.png" alt="">
+
+              
+              <!-- -----------------------------  DESSICATORS SOLUTIONS  ------------------------ -->
+              </div>
+              
+              
+              
+              <!-- <img class="dsolutionbig" id="dsolbig1" src="dessicator-solution-big.png" alt=""> -->
+              <!-- <img class="dsolutionbig" id="dsolbig2" src="dessicator-solution-big.png" alt=""> -->
+              <!-- <img class="dsolutionbig" id="dsolbig3" src="dessicator-solution-big.png" alt=""> -->
+              <!-- <img class="dsolutionbig" id="dsolbig4" src="dessicator-solution-big.png" alt=""> -->
+              <!-- <img class="dsolutionbig" id="dsolbig5" src="dessicator-solution-big.png" alt=""> -->
+              
+              <!-- ---------------------------------  DESSICATOR BASE -------------------------------- -->
+              
+              
+            
+z
+
+              <!-- ---------------------------------------  MEASURING CYYLINDER AND SOLUTION  ------------------ -->
+              <div id="stp12">    
+              <img id="weighing_machine" src="wheighing-machine.png" alt="Water Bath" />   
+             
+               
+              <img id="latex-beaker" src="latex_beaker.png" alt="Water Bath" />  
+              <img id="latex-beaker-full" src="latex_beaker_full.png" alt="Water Bath" /> 
+            
+              <img id="main_beaker" src="main_beaker1.png" alt="Water Bath" />  
+              <img id="latex_bottom" src="latex_bottom.png" alt="Water Bath" />
+               <img id="latex_bottom1" src="latex_bottom.png" alt="Water Bath" /> 
+              <img id="latex_up" src="latex_up.png" alt="Water Bath" />   
+            
+                <img id="latex_strip" src="latex_strip.png" alt="Water Bath" />  
+               <img id="tilted_latex" src="tilted_latex.png" alt="Water Bath" />  
+                <img id="latex_80" src="latex_80.png" alt="Water Bath" />  
+                    <img id="water_beaker_120" src="water_beaker_120.png" alt="Water Bath" />  
+               <img id="water_beaker" src="water_200.png" alt="Water Bath" />  
+                <img id="tilted_water" src="tilted_water.png" alt="Water Bath" />  
+                <img id="beaker_water_120" src="beaker_water_120.png" alt="Water Bath" />  
+                  <img id="beaker_water" src="beaker_water.png" alt="Water Bath" />  
+                   <img id="water_strip" src="water_strip.png" alt="Water Bath" /> 
+                    <img id="latex_80_top" src="latex_80_top.png" alt="Water Bath" />   
+
+              <div id="weight-display">00.00</div>
+
+               <button id="Off_button_weighing"> OFF </button>
+                <button id="tare"> Tare</button>
+            
+    </div>
+
+       <div id = stp63 >
+             <img id="waterBath_lower3" src="water bath lower.png" alt="Water Bath" />
+    <img id="waterBath_upper3" src="waterbath  upper.png" alt="Water Bath" />
+
+    <img id="waterBath_down_lower3" src="water bath down lower.png" alt="Water Bath" />
+    <img id="waterBath_top_upper3" src="waterbath top upper.png" alt="Water Bath" />
+    <img id="waterBath_front3" src="water bath front.png" alt="Water Bath" />
+    <img id="waterBath_upper_lower23" src="water bath upper lower.png" alt="Water Bath" />
+    <img id="waterBath_upper_lower13" src="water bath upper lower1.png" alt="Water Bath" />
+    <img id="water3" src="water.png" alt="Water Bath" />
+    <img id="water13" src="water.png" alt="Water Bath" />
+ 
+    <img id="onswitch3" src="on_switch.png" alt="On Switch" />
+
+    <img id="onSwitchHolder3" src="on_switch_holder.png" alt="On Switch Holder" />
+    <img id="setOff3" src="set_off.png" alt="Set Off" />
+    <img id="setOn3" src="set_on.png" alt="Set On" />
+    <img id="setButtonHolder3" src="set_button_holder.png" alt="Set Button Holder" />
+    <img id="downOnSwitch3" src="down on switch.png" alt="Down On Switch" />
+    <img id="upOnSwitch3" src="up on switch.png" alt="Up On Switch" />
+    <img id="upOffSwitch3" src="up off switch.png" alt="Up Off Switch" />
+    <img id="downSwitch3" src="down switch.png" alt="Down Switch" />
+    <img id="offSwitch3" src="off switchh.png" alt="Off Switch" />
+    <img id="onSwitch3" src="on switch.png" alt="On Switch" />
+    <img id="upswitchholder3" src="up switch holder.png" alt="On Switch" />
+    <div id="timerDisplay3"> hello</div>
+    <div id="timerDisplay13"> timer </div>
+    <div id="timerDisplay23" style="display: none;"></div>
+     
+    
+    <div id="actualTempDisplay3">20°C</div>
+    <div id="sampleTempDisplay3">20°C</div>
+
+    <div id="setTempDisplay3">25°C</div>
+
+    <div id="actualTempDisplay13">Bath Temp</div>
+    <div id="sampleTempDisplay13">Set Temp</div>
+
+    
+  
+    </div>
+                     <img id="latex_beaker_200" src="latex_beaker_200.png" alt="Water Bath" />   
+
+
+
+
+  <div id  = "stp70">
+    
+
+   
+
+
+    <button id="step2Btn" class="hidden" onclick="completeStep1()">Go to Step 2</button>
+<!-- Milk-related Images -->
+  </div>
+     
+  </div>
+        <div id = "stp13">
+
+          
+   
+        </div>
+         
+        
+              
+              </div>
+            
+
+
+
+
+      <div id="stp15">
+        
+      </div>
+    
+<div id =  "stp23">
+
+<img id="waterBath_lower" src="water bath lower.png" alt="Water Bath" />
+<img id="waterBath_upper" src="waterbath  upper.png" alt="Water Bath" />
+
+<img id="waterBath_down_lower" src="water bath down lower.png" alt="Water Bath" />
+<img id="waterBath_top_upper" src="waterbath top upper.png" alt="Water Bath" />
+      <img id="waterBath_front" src="water bath front.png" alt="Water Bath" />
+
+<img id="waterBath_upper_lower2" src="water bath upper lower.png" alt="Water Bath" />
+<img id="waterBath_upper_lower1" src="water bath upper lower1.png" alt="Water Bath" />
+      <img id="water" src="water.png" alt="Water Bath" />
+         <img id="water1" src="water.png" alt="Water Bath" />
+         <img id="butyrometer3" class="butyrometer" src="centrifuge butyrometer.png" alt="Empty Butyrometer" />
+
+
+
+         <img id="onswitch" src="on_switch.png" alt="On Switch" />
+         
+   <img id="tilted_butyrometer1" class="tilted_butyrometer1" src="tilted butyrometer.png" alt="Empty Butyrometer" />
+<img id="onSwitchHolder" src="on_switch_holder.png" alt="On Switch Holder" />
+<img id="setOff" src="set_off.png" alt="Set Off" />
+<img id="setOn" src="set_on.png" alt="Set On" />
+<img id="setButtonHolder" src="set_button_holder.png" alt="Set Button Holder" />
+<img id="downOnSwitch" src="down on switch.png" alt="Down On Switch" />
+<img id="upOnSwitch" src="up on switch.png" alt="Up On Switch" />
+<img id="upOffSwitch" src="up off switch.png" alt="Up Off Switch" />
+<img id="downSwitch4" src="down switch.png" alt="Down Switch" />
+<img id="offSwitch" src="off switchh.png" alt="Off Switch" />
+<img id="onSwitch" src="on switch.png" alt="On Switch" />
+<img id="upswitchholder" src="up switch holder.png" alt="On Switch" />
+<div id="timerDisplay"></div>
+<div id="timerDisplay1"></div>
+<div id="timerDisplay2" style="display: none;"></div>
+
+  
+  <!-- First: Label Divs -->
+  <div id="actualTempDisplay">25°C</div>
+  <div id="sampleTempDisplay">25°C</div>
+
+    <div id="setTempDisplay">25°C</div>
+   
+  <!-- Second: Value Divs -->
+  <div id="actualTempDisplay1">Bath Temp</div>
+  <div id="sampleTempDisplay1">Sample Temp</div>
+
+
+
+
+
+
+</div>
+
+<div id="stp993">
+
+    <img id="waterBath_lower3" src="water bath lower.png" alt="Water Bath" />
+    <img id="waterBath_upper3" src="waterbath  upper.png" alt="Water Bath" />
+
+    <img id="waterBath_down_lower3" src="water bath down lower.png" alt="Water Bath" />
+    <img id="waterBath_top_upper3" src="waterbath top upper.png" alt="Water Bath" />
+    <img id="waterBath_front3" src="water bath front.png" alt="Water Bath" />
+     <img id="straight_butyrometer3" class="straight_butyrometer" src="butyrometer with cap straight.png" alt="Empty Butyrometer" />
+    <img id="waterBath_upper_lower23" src="water bath upper lower.png" alt="Water Bath" />
+    <img id="waterBath_upper_lower13" src="water bath upper lower1.png" alt="Water Bath" />
+    <img id="water3" src="water.png" alt="Water Bath" />
+    <img id="water13" src="water.png" alt="Water Bath" />
+ 
+    <img id="onswitch3" src="on_switch.png" alt="On Switch" />
+
+    <img id="tilted_butyrometer3" class="tilted_butyrometer13" src="tilted butyrometer.png" alt="Empty Butyrometer" />
+    <img id="onSwitchHolder3" src="on_switch_holder.png" alt="On Switch Holder" />
+    <img id="setOff3" src="set_off.png" alt="Set Off" />
+    <img id="setOn3" src="set_on.png" alt="Set On" />
+    <img id="setButtonHolder3" src="set_button_holder.png" alt="Set Button Holder" />
+    <img id="downOnSwitch3" src="down on switch.png" alt="Down On Switch" />
+    <img id="upOnSwitch3" src="up on switch.png" alt="Up On Switch" />
+    <img id="upOffSwitch3" src="up off switch.png" alt="Up Off Switch" />
+    <img id="downSwitch3" src="down switch.png" alt="Down Switch" />
+    <img id="offSwitch3" src="off switchh.png" alt="Off Switch" />
+    <img id="onSwitch3" src="on switch.png" alt="On Switch" />
+    <img id="upswitchholder3" src="up switch holder.png" alt="On Switch" />
+    <div id="timerDisplay3"></div>
+    <div id="timerDisplay13"></div>
+    <div id="timerDisplay23" style="display: none;"></div>
+     
+     
+    
+    <div id="actualTempDisplay3">25°C</div>
+    <div id="sampleTempDisplay3">25°C</div>
+
+    <div id="setTempDisplay3">25°C</div>
+
+    <div id="actualTempDisplay13">Bath Temp</div>
+    <div id="sampleTempDisplay13">Sample Temp</div>
+
+</div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <button id="showResultBtn">Show Observations</button>
+ 
+
+<div id = stp55>
+<div id="viscosityResult">
+      <h2>✅ Viscosity Measurement Complete</h2>
+        <hr />
+      <p><strong>Final Viscosity:</strong> 72 cP</p>
+      <p><strong>Spindle:</strong> S3</p>
+      <p><strong>Speed:</strong> 8.0 RPM</p>
+      <p><strong>Torque:</strong> 4.1%</p>
+      <p><strong>Time:</strong> 20 seconds</p>
+      <hr />
+      <p class="checkmark">✔️ Sample latex shows medium viscosity.</p>
+      <p class="checkmark">✔️ Spindle S3 was appropriate for this sample.</p>
+      <p class="checkmark">✔️ Measurement completed within optimal time range.</p>
+      <p class="thankyou">🙏 Thank you for using our simulator!</p>
+    </div>
+  </div>
+
+     <div id = stp33 >
+
+       <img id="beakerHolder" class="visco-img" src="beaker_holder.png" alt="Beaker Holder">
+
+  <div id="viscoGroup">
+  <img id="selectSpindle" class="visco-img" src="select spindle.png" alt="Select Spindle">
+  <img id="spindleNo22" class="visco-img" src="spindle_no_2.png" alt="Spindle No. 2">
+ 
+  <img id="viscosityUpButton" class="visco-img" src="viscocity_up_button.png" alt="Viscosity Up Button">
+  <img id="motorOnOff" class="visco-img" src="motor_on_off.png" alt="Motor On Off">
+  <img id="setSplinder" class="visco-img" src="set_splinder.png" alt="Set Splinder">
+  <img id="spindleNo3" class="visco-img" src="spindle_no_3.png" alt="Spindle No. 3">
+  <img id="viscosityDownButton" class="visco-img" src="viscocity_down_button.png" alt="Viscosity Down Button">
+  <img id="viscometerUpperPart" class="visco-img" src="viscometer_upper.png" alt="Viscometer Upper Part">
+</div>
+
+      <img id="viscometerStand" class="visco-img" src="viscometer_stand.png" alt="Viscosity Down Button">
+      
+ <img id="off_on_button" src="Off On button.png" alt="Off On button">
+
+       <button class="button" id="startButton">▶️ Start Motor</button>
+  <button class="button" id="stopButton">⏹️ Stop Motor</button>
+
+   <div id = stp37 >
+  <div id="actualTempDisplay4"> S62</div>
+    <div id="sampleTempDisplay4">cp 0</div>
+    <div id="actualTempDisplay5">1.3%</div>
+    <div id="sampleTempDisplay5">6.0RPM</div>
+  </div>
+  <!-- Audio element with unique ID and source file -->
+  <audio id="motorSound" >
+    <source src="motor_sound.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  
+ 
+   
+
+   
+
+
+
+  
+     </div>
+</div>
+    
+
+
+<div id = stp32>
+
+  <img id="water_beaker" src="water_beaker.png" alt="Off On Button">
+ <img id="beaker_water" src="beaker_water.png" alt="Off On Button">
+
+  
+
+
+
+
+     
+     
+     <img id="butyrometer_centrifuge" class="butyrometer" src="centrifuge butyrometer.png" alt="Empty Butyrometer" />
+      <img id="brown_butyrometer_sol_centrifuge" class="brown_butyrometer_sol" src="finalsol.png" alt="Final Solution" /> 
+
+     
+       
+       <img id="pipette_centrifuge" src="pippete_centrifuge.png" alt="Empty Pipette" />
+               <img id="pipette_21ml" src="pipette_21.75ml.png" alt="Empty Pipette" />
+      
+        <img id="pipette_" src="pippete_centrifuge.png" alt="Empty Pipette" />
+               <img id="pipette_21ml" src="pipette_21.75ml.png" alt="Empty Pipette" />
+         <img id="butyrometer_water_21ml" src="butyrometer_water_21ml.png" alt="Empty Pipette" />
+
+
+</div>
+</div id = "stp77">
+      
+       
+     <img id="tilted_butyrometer" class="tilted_butyrometer" src="tilted butyrometer.png" alt="Empty Butyrometer" />
+          <img id="finalfatsolution" class="tilted_butyrometer" src="finalfatsolution.png" alt="Empty Butyrometer" />
+    
+    <div id="rpmLabel" >RPM:</div>
+    <div id="rpmDisplay" >0000</div>
+
+
+
+    <div id="timeLabel" >Time:</div>
+    <div id="timeDisplay">0:00</div>
+
+
+
+    <div id="tempLabel">Temperature:</div>
+    <div id="tempDisplay">25°C</div>
+
+    <div id="Set">Set</div>
+
+    <div id="heelo" >Hello:</div>
+</div>
+
+
+   
+
+
+
+ </div>
+
+
+              
+
+
+
+
+
+               
+                
+                <button id="start" onclick="start()" >START</button>
+            </div>
+        </div>
+
+          <!-----------------------------------         LANGUAGE SELECTOR            --------------------------------------------->
+
+        <!-- <div id="langselector">        
+            <h1 id="lselector">Please select your language</h1>
+            <button id="hindi" onclick="hindi1()">हिंदी</button>
+            <button id="eng" onclick="eng1()">ENG</button>
+        </div> -->
+    </main>
+    <script src="./script/project.js"></script>
+    <script src="./script/step1.js"></script>
+    <script src="./script/step2.js"></script>
+    <script src="./script/step3.js"></script>
+     <script src="./script/step4.js"></script>
+    <script src="./script/bypass.js"></script>
 </body>
 </html>
