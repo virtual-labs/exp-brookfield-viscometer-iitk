@@ -33,7 +33,7 @@ The viscosity of the given semi-solid sample at ___ °C is found to be _____ cP 
 <b>Conclusion:</b><br>
 The Brookfield viscometer is a reliable instrument for determining the viscosity of semi-solid samples. The viscosity of the tested sample was within acceptable limits for its intended use, confirming its consistency and quality.
 
-<b>Precautions:</b>
+<b>Precautions:</b><br>
 ● Ensure the spindle is clean and dry before use.<br>
 ● Avoid air bubbles during sample transfer.<br>
 ● Maintain a constant temperature throughout the test.<br>
