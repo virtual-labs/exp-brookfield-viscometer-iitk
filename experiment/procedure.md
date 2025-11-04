@@ -18,11 +18,15 @@
 ● Repeat the reading at different spindle speeds if required.<br>
 ● Record the temperature of the sample during measurement.<br>
 
-<b>Observations and Data:</b><br>
+**Observations and Data:**
 
-| **Spindle No.** | **Speed (RPM)** | **Temperature (°C)** | **Viscosity (cP)** |
-|------------------|------------------|-----------------------|---------------------|
-|                  |                  |                       |                     |
+| **Sr No.** | **Spindle No.** | **Speed (RPM)** | **Temperature (°C)** | **Viscosity (cP)** |
+|:--------------:|-----------------------:|------------------------:|---------------:|--------------------------:|
+| 1              |                       |                         |                |                           |
+| 2              |                       |                         |                |                           |
+| 3              |                       |                         |                |                           |
+| 4              |                       |                         |                |                           |
+
 
 <b>Calculations:</b><br>
 No manual calculation is required as the Brookfield viscometer provides direct readings of viscosity. However, corrections may be applied if temperature deviates significantly from standard conditions.<br>
