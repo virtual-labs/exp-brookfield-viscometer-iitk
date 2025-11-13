@@ -2,35 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. A type of flow in which viscosity increases when the substance is agitated?",
+      "question": "1. If the spindle touches the container wall during measurement, it can cause: ",
       "answers": {
-        "a": "Plastic",
-        "b": "Pseudoplastic",
-        "c": "Dilatant",
-        "d": "Thixotropy"
+        "a": "Higher accuracy ",
+        "b": "No effect on reading ",
+        "c": "Erroneous viscosity values ",
+        "d": "Faster equilibrium "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Dilatant materials are frquently named as shear thickening systems. As the shear stress is increased, the bulk of the sysytem expands or dilates",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "2. Yield value reveals about the?",
+      "question": "2. Increasing the spindle speed generally leads to: ",
       "answers": {
-        "a": "de- flocculation",
-        "b": "force of flocculation",
-        "c": "degree of flocculation",
-        "d": "none of the above"
+        "a": "Higher apparent viscosity in non-Newtonian fluids ",
+        "b": "Lower apparent viscosity in shear-thinning fluids ",
+        "c": "No change in viscosity ",
+        "d": "Sample solidification "
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "In plastic flow the substance initially behaves like elastic body and fails to flow when less amount of force is applied on further increasing the shear stress the substance progressively starts to flow",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3. The viscosity value displayed on the Brookfield viscometer depends on: ",
+      "answers": {
+        "a": "Torque and spindle speed ",
+        "b": "Sample color and density ",
+        "c": "Container size and shape ",
+        "d": "Volume of the sample only "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "4. Why is it important to maintain constant temperature during viscosity measurement? ",
+      "answers": {
+        "a": "To prevent spindle vibration ",
+        "b": "Because viscosity changes with temperature ",
+        "c": "To increase torque reading ",
+        "d": "To reduce equipment noise "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": " If readings fluctuate continuously, the likely reason is: ",
+      "answers": {
+        "a": "Proper sample loading ",
+        "b": "Entrapped air bubbles in the sample ",
+        "c": "Stable spindle immersion ",
+        "d": "Correct calibration "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
