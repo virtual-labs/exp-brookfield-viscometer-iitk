@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.controls {
+  position: relative;
+  margin-bottom: -5px;
+  margin-top: 20px;
+}
+
+.main_wrapper {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; */
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.procedure {
+  position: absolute;
+  width: 400px;
+  top: 40px;
+  right: 40px;
+}
+
+.main_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.viscometer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.power {
+  margin: 0px 200px;
+  position: relative;
+}
+
+/* .power > img { */
+/*   box-shadow: 0px 0px 40px 10px grey; */
+/* } */
+
+.power_cord {
+  position: absolute;
+  width: 450px;
+  height: 220px;
+  background-color: transparent;
+  border: 15px solid grey;
+  border-top: 0px solid grey;
+  top: 95px;
+  left: 162px;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.main_frame_img {
+  pointer-events: none;
+}
+
+.z-index-top {
+  z-index: 100;
+}
+
+.z-index-bottom {
+  z-index: -10;
+}
+
+.select_knob {
+  position: absolute;
+  top: 262px;
+  left: 147px;
+}
+
+/* .select_knob > input {
+  appearance: unset;
+  width: 90px;
+  height: 45px;
+  position: relative;
+  border: 5px solid rgb(66, 66, 66);
+  border-radius: 10px;
+  background-color: dimgray;
+  cursor: pointer;
+}
+
+.select_knob > input::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  background-color: white;
+  height: 0.8rem;
+  width: 0.8rem;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: left 0.1s;
+}
+
+.select_knob > input:checked::after {
+  left: 70%;
+} */
+
+.select_knob > input {
+  appearance: unset;
+  width: 90px;
+  height: 45px;
+  position: relative;
+  box-shadow: 0px 0px 0px 7px #5c5757 inset;
+  background-image: linear-gradient(
+    to left,
+    #3d3c3c,
+    #3d3c3c 50%,
+    rgb(104, 104, 104) 50%,
+    rgb(104, 104, 104)
+  );
+}
+
+.select_knob > input:checked {
+  background-image: linear-gradient(
+    to right,
+    #3d3c3c,
+    #3d3c3c 50%,
+    rgb(104, 104, 104) 50%,
+    rgb(104, 104, 104)
+  );
+}
+
+.range_knob {
+  position: absolute;
+  top: 350px;
+  left: 172px;
+}
+
+.range_knob > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knob {
+  cursor: pointer;
+}
+
+.motor_switch {
+  position: absolute;
+  top: 400px;
+  left: 77px;
+}
+
+.motor_switch > input {
+  height: 55px;
+  width: 55px;
+  appearance: unset;
+  background-image: linear-gradient(grey, #3d3c3c);
+  box-shadow: 0px 0px 0px 6px #3d3c3c inset;
+}
+
+.motor_switch > input:checked {
+  background-image: linear-gradient(#3d3c3c, grey);
+}
+
+/* add power supply switch here */
+.power_switch {
+  position: absolute;
+  top: 45px;
+  left: 60px;
+  height: 65px;
+  width: 40px;
+  appearance: unset;
+  background-image: linear-gradient(grey, #3d3c3c);
+  box-shadow: 0px 0px 0px 6px #3d3c3c inset;
+}
+
+.power_switch:checked {
+  background-image: linear-gradient(#3d3c3c, grey);
+}
+
+.power_indicator {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 65px;
+  left: 160px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px 7px #9f9f9f inset;
+}
+
+.auto_range {
+  position: absolute;
+  top: 400px;
+  left: 262px;
+}
+
+.auto_button {
+  height: 55px;
+  width: 55px;
+  background-color: #5c5757;
+  border: 5px solid #4f4f4f;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 5px #3d3c3c inset;
+}
+
+.auto_button:active {
+  box-shadow: 0px 0px 0px 7px #3d3c3c inset;
+}
+
+.display {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  height: 120px;
+  width: 300px;
+  background-color: #1e6a1c;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.viscometer_input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 8px 15px 0px 15px;
+  font-size: 25px;
+  color: #1c1c1c;
+  opacity: 0%;
+}
+
+.viscocity {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #1c1c1c;
+  opacity: 0%;
+}
+
+.spindles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* width: 400px; */
+  /* position: absolute; */
+  /* right: 30px; */
+  /* top: 30px; */
+}
+
+.spindle {
+  margin: 0px 10px;
+}
+
+.lower_frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.dragSpindleTo {
+  height: 250px;
+  width: 40px;
+  position: absolute;
+  top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dragBeakerTo {
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hovered {
+  border: 4px dashed rgb(107, 107, 107);
+}
+
+.background {
+  background-color: brown;
+  width: 100%;
+  height: 100vh;
+}
+
+.beaker_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beaker {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.liquid {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 40%;
+  /* animation: var(--anime); */
+  /* animation-fill-mode: forwards; */
+  /* animation-play-state: var(--play); */
+  opacity: 25%;
+  top: 70px;
+}
+
+:root {
+  --anime: fill 7s ease-in-out;
+  /* --play: paused; */
+}
+
+@keyframes fill {
+  0% {
+    top: 270px;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    top: 110px;
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+.spindle_animation {
+  opacity: 0%;
+  position: absolute;
+  top: 50px;
+  left: 185px;
+  height: 50px;
+  width: 20px;
+  z-index: 300;
+}
+
+.transparent {
+  opacity: 0%;
+}
+
+.beakers_stand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 800px;
+}
+
+.beaker_container > img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.beaker_holder {
+  position: absolute;
+  height: 300px;
+  width: 620px;
+  bottom: 35px;
+  left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.water {
+  background: blue;
+}
+
+.magma {
+  background: blue;
+}
+
+.cellulose {
+  background: blue;
+}
+
+.oil {
+  background: blue;
+}
