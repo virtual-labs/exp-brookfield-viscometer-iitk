@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. If the spindle touches the container wall during measurement, it can cause: ",
+      "answers": {
+        "a": "Higher accuracy ",
+        "b": "No effect on reading ",
+        "c": "Erroneous viscosity values ",
+        "d": "Faster equilibrium "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Increasing the spindle speed generally leads to: ",
+      "answers": {
+        "a": "Higher apparent viscosity in non-Newtonian fluids ",
+        "b": "Lower apparent viscosity in shear-thinning fluids ",
+        "c": "No change in viscosity ",
+        "d": "Sample solidification "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3. The viscosity value displayed on the Brookfield viscometer depends on: ",
+      "answers": {
+        "a": "Torque and spindle speed ",
+        "b": "Sample color and density ",
+        "c": "Container size and shape ",
+        "d": "Volume of the sample only "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "4. Why is it important to maintain constant temperature during viscosity measurement? ",
+      "answers": {
+        "a": "To prevent spindle vibration ",
+        "b": "Because viscosity changes with temperature ",
+        "c": "To increase torque reading ",
+        "d": "To reduce equipment noise "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "5. If readings fluctuate continuously, the likely reason is: ",
+      "answers": {
+        "a": "Proper sample loading ",
+        "b": "Entrapped air bubbles in the sample ",
+        "c": "Stable spindle immersion ",
+        "d": "Correct calibration "
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

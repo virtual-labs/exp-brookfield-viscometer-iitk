@@ -1,0 +1,1 @@
+Viscosity is the measure of a fluid's resistance to flow. The Brookfield viscometer determines viscosity by measuring the torque required to rotate a spindle at a constant speed in a fluid. The resistance to the spindle’s movement caused by the fluid is converted into viscosity units (centipoise, cP).
