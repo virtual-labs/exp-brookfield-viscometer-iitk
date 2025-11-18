@@ -17,6 +17,7 @@
 ● Record the viscosity value displayed on the screen.<br>
 ● Repeat the reading at different spindle speeds if required.<br>
 ● Record the temperature of the sample during measurement.<br>
+<!--
 
 **Observations and Data:**
 
