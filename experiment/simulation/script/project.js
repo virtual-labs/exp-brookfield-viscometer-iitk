@@ -58,7 +58,7 @@ function start(){
     //    statuses = 1;
         startbutton.style.visibility="hidden"
        f=1;
-        ins.innerText="Click on the turn off button of the Weighing Machine To ON it "
+        ins.innerText="Click on the off button of the Weighing Machine To ON it "
         wheighing();
   
     }
@@ -72,7 +72,7 @@ function start(){
     //     stp33.style.visibility = "hidden";
     //     stp32.style.visibility = "hidden";
     //      stp63.style.visibility = "hidden";
-    //       stp70.style.visibility = "visible"; 
+    //       stp70.style.visibility = "visible";     
     //     startbutton.style.visibility="hidden"
     //     f=1
     //     ins.innerText="Click the pipette to draw 10ml h2so4."
@@ -106,7 +106,7 @@ function start(){
        motorOnOff.style.visibility = "visible"
         stp63.style.visibility="hidden";
         stp33.style.visibility = "visible";
-        ins.innerText = "Click on the dial to reach to the bottom complete the process of rotation "
+        ins.innerText = "Click on the beaker to place it on the stand for the rotation"
          startbutton.style.visibility="hidden"
         startbutton.style.opacity = "0%"
      
