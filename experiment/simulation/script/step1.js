@@ -349,7 +349,7 @@ function pulse(element) {
 // OFF → ON transition
 function waterbath() {
   f = 441;
-  ins.innerText = "Click on the off switch of water bath to on it "
+  ins.innerText = "Click on the on switch of water bath to on it "
 offSwitch3.addEventListener("click", () => {
     if (f === 441) {
         f = 152;
