@@ -2,35 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. A type of flow in which viscosity increases when the substance is agitated?",
+      "question": "1. The Brookfield viscometer measures viscosity based on: ",
       "answers": {
-        "a": "Plastic",
-        "b": "Pseudoplastic",
-        "c": "Dilatant",
-        "d": "Thixotropy"
+        "a": "Rate of diffusion ",
+        "b": "Volume of displaced fluid",
+        "c": "Torque required to rotate a spindle",
+        "d": "Thermal conductivity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Dilatant materials are frquently named as shear thickening systems. As the shear stress is increased, the bulk of the sysytem expands or dilates",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "2. Yield value reveals about the?",
+      "question": "2. The unit of viscosity commonly used in Brookfield measurements is:",
       "answers": {
-        "a": "de- flocculation",
-        "b": "force of flocculation",
-        "c": "degree of flocculation",
-        "d": "none of the above"
+        "a": "Pascal-second (Pa·s)",
+        "b": "Poise (P)",
+        "c": "Centipoise (cP)",
+        "d": "Newton per square meter"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "In plastic flow the substance initially behaves like elastic body and fails to flow when less amount of force is applied on further increasing the shear stress the substance progressively starts to flow",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3. The main function of the spindle in a Brookfield viscometer is to: ",
+      "answers": {
+        "a": "Heat the sample",
+        "b": "Measure the temperature",
+        "c": "Create shear within the sample",
+        "d": "Record the density"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "4. Calibration of the viscometer ensures: ",
+      "answers": {
+        "a": "Accurate viscosity measurement",
+        "b": "Faster reading",
+        "c": "Better spindle speed",
+        "d": "Uniform temperature"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "5. Which factor can affect viscosity measurement most significantly?",
+      "answers": {
+        "a": "Color of the sample",
+        "b": "Temperature of the sample",
+        "c": "Size of the container",
+        "d": "Speed of calibration"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
